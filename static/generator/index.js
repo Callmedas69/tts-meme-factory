@@ -205,7 +205,7 @@ document.getElementById("download-button").addEventListener("click", function ()
     const imageDataUrl = canvas.toDataURL();
     const link = document.createElement("a");
     link.href = imageDataUrl;
-    link.download = "dark_pfp.png";
+    link.download = "fight-fist.png";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
