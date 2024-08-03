@@ -1,10 +1,10 @@
 const canvas = document.getElementById("meme-canvas");
 const ctx = canvas.getContext("2d", { willReadFrequently: true });
 const fistImageTemplate = new Image();
-fistImageTemplate.src = "https://callmedas69.github.io/tts-meme-factory/fist.png";
+fistImageTemplate.src = "./fist.png";
 fistImageTemplate.crossOrigin = "anonymous";
 const laserImageTemplate = new Image();
-laserImageTemplate.src = "https://callmedas69.github.io/tts-meme-factory/laser.png";
+laserImageTemplate.src = "./laser.png";
 laserImageTemplate.crossOrigin = "anonymous";
 
 let canvasImage = new Image();
